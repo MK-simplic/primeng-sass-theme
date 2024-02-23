@@ -67,7 +67,7 @@
     }
 }
 
-.p-button.p-button-secondary, .p-buttonset.p-button-secondary > .p-button, .p-splitbutton.p-button-secondary > .p-button {
+.p-button.p-button-secondary, .p-button-group.p-button-secondary > .p-button, .p-splitbutton.p-button-secondary > .p-button {
     &:enabled:focus {
         background: rgba($secondaryButtonBg, .76);
     }
@@ -92,7 +92,7 @@
     }
 }
 
-.p-button.p-button-info, .p-buttonset.p-button-info > .p-button, .p-splitbutton.p-button-info > .p-button {
+.p-button.p-button-info, .p-button-group.p-button-info > .p-button, .p-splitbutton.p-button-info > .p-button {
     &:enabled:focus {
         background: rgba($infoButtonBg, .76);
     }
@@ -117,7 +117,7 @@
     }
 }
 
-.p-button.p-button-success, .p-buttonset.p-button-success > .p-button, .p-splitbutton.p-button-success > .p-button {
+.p-button.p-button-success, .p-button-group.p-button-success > .p-button, .p-splitbutton.p-button-success > .p-button {
     &:enabled:focus {
         background: rgba($successButtonBg, .76);
     }
@@ -142,7 +142,7 @@
     }
 }
 
-.p-button.p-button-warning, .p-buttonset.p-button-warning > .p-button, .p-splitbutton.p-button-warning > .p-button {
+.p-button.p-button-warning, .p-button-group.p-button-warning > .p-button, .p-splitbutton.p-button-warning > .p-button {
     &:enabled:focus {
         background: rgba($warningButtonBg, .76);
     }
@@ -167,7 +167,7 @@
     }
 }
 
-.p-button.p-button-help, .p-buttonset.p-button-help > .p-button, .p-splitbutton.p-button-help > .p-button {
+.p-button.p-button-help, .p-button-group.p-button-help > .p-button, .p-splitbutton.p-button-help > .p-button {
     &:enabled:focus {
         background: rgba($helpButtonBg, .76);
     }
@@ -192,7 +192,7 @@
     }
 }
 
-.p-button.p-button-danger, .p-buttonset.p-button-danger > .p-button, .p-splitbutton.p-button-danger > .p-button {
+.p-button.p-button-danger, .p-button-group.p-button-danger > .p-button, .p-splitbutton.p-button-danger > .p-button {
     &:enabled:focus {
         background: rgba($dangerButtonBg, .76);
     }
