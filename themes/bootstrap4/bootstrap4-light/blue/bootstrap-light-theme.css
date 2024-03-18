@@ -419,7 +419,7 @@
   color: var(--primary-500);
 }
 
-@layer primeng {
+
   * {
     box-sizing: border-box;
   }
@@ -6387,7 +6387,7 @@
     font-feature-settings: var(--font-feature-settings, normal);
     font-size: 1rem;
   }
-}
+
 /* Vendor extensions to the designer enhanced bootstrap compatibility */
 /* Customizations to the designer theme should be defined here */
 

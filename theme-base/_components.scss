@@ -3,7 +3,7 @@
 
 @import './components/input/_editor';
 
-@layer primeng {
+
     @import '_common';
 
     //Input
@@ -106,4 +106,4 @@
     @import './components/misc/_skeleton';
     @import './components/misc/_tag';
     @import './components/misc/_terminal';
-}
+
