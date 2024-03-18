@@ -1,6 +1,6 @@
 {
     "name": "primeng-sass-theme",
-    "version": "17.11.0",
+    "version": "17.10.0",
     "description": "PrimeNG Sass Theme",
     "homepage": "https://primeng.org/",
     "repository": {
@@ -20,5 +20,12 @@
     "license": "MIT",
     "bugs": {
         "url": "https://github.com/primefaces/primeng-sass-theme/issues"
+    },
+    "scripts": {
+        "dark": "sass --update themes/bootstrap4/bootstrap4-dark/blue/theme.scss:output/bootstrap-dark-theme.css",
+        "light": "sass --update themes/bootstrap4/bootstrap4-light/blue/theme.scss:output/bootstrap-light-theme.css"
+    },
+    "devDependencies": {
+        "sass": "^1.72.0"
     }
 }

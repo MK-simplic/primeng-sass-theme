@@ -6,12 +6,12 @@
         }
 
         &.p-highlight {
-            background: $highlightBg;
-            color: $highlightTextColor;
+            background: var(--primary-500);
+            color: var(--primary-text);
 
             .p-node-toggler {
                 i {
-                    color: darken($highlightBg, 25%);
+                    color: var(--primary-900);
                 }
             }
         }

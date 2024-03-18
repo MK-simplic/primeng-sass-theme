@@ -91,11 +91,11 @@
             border-radius: $inputListItemBorderRadius;
 
             &.p-highlight {
-                color: $highlightTextColor;
-                background: $highlightBg;
+                color: var(--primary-text);
+                background: var(--primary-500);
 
                 &.p-focus {
-                    background: $highlightFocusBg;
+                    background: var(--primary-600);
                 }
             }
 

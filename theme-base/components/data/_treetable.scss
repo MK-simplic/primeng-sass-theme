@@ -61,8 +61,8 @@
             height: $tableSortableColumnBadgeSize;
             min-width: $tableSortableColumnBadgeSize;
             line-height: $tableSortableColumnBadgeSize;
-            color: $highlightTextColor;
-            background: $highlightBg;
+            color: var(--primary-text);
+            background: var(--primary-500);
             margin-left: $inlineSpacing;
         }
 
@@ -124,14 +124,14 @@
             }
 
             &.p-highlight {
-                background: $highlightBg;
-                color: $highlightTextColor;
+                background: var(--primary-500);
+                color: var(--primary-text);
 
                 .p-treetable-toggler {
-                    color: $highlightTextColor;
+                    color: var(--primary-text);
 
                     &:hover {
-                        color: $highlightTextColor;
+                        color: var(--primary-text);
                     }
                     
                 }

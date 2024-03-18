@@ -28,8 +28,8 @@
 
             &.p-highlight {
                 button {
-                    background: $highlightBg;
-                    color: $highlightTextColor;
+                    background: var(--primary-500);
+                    color: var(--primary-text);
                 }
             }
         }

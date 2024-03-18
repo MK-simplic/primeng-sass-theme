@@ -51,7 +51,7 @@
             .p-rating-item {
                 &.p-rating-item-active {
                     .p-rating-icon {
-                        color: $highlightTextColor;
+                        color: var(--primary-text);
                     }
                 }
             }

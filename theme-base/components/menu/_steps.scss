@@ -32,8 +32,8 @@
 
         &.p-highlight {
             .p-steps-number {
-                background: $highlightBg;
-                color: $highlightTextColor;
+                background: var(--primary-500);
+                color: var(--primary-text);
             }
 
             .p-steps-title {

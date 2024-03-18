@@ -1,12 +1,12 @@
-$primaryLightColor: #e3f3fe !default;
-$primaryColor: #8dd0ff !default;
-$primaryDarkColor: #56bdff !default;
-$primaryDarkerColor: #1dadff !default;
-$primaryTextColor: #151515 !default;
-$primaryAccentBg: #476880 !default;
+$primaryLightColor: var(--primary-100) !default;
+$primaryColor: var(--primary-300) !default;
+$primaryDarkColor: var(--primary-400) !default;
+$primaryDarkerColor: var(--primary-500) !default;
+$primaryTextColor: var(--primary-text) !default;
+$primaryAccentBg: var(--primary-900) !default;
 
-$highlightBg: $primaryColor !default;
-$highlightTextColor: $primaryTextColor !default;
-$highlightFocusBg: darken($primaryColor, 8%) !default;
+$highlightBg: var(--primary-300) !default;
+$highlightTextColor: var(--primary-text) !default;
+$highlightFocusBg: var(--primary-400) !default;
 
 @import '../_variables_dark';

@@ -28,7 +28,7 @@
         &.p-fileupload-highlight {
             border-color: $fileUploadContentHoverBorder;
             border-style: dashed;
-            background-color: $highlightBg;
+            background-color: var(--primary-500);
         }
     }
 
