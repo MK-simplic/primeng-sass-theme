@@ -900,4 +900,12 @@ $imagePreviewActionIconBorderRadius: 50% !default;
     --highlight-bg: var(--primary-300);
     --highlight-text-color: var(--primary-text);
     color-scheme: dark;
+    --primary-text : rgba(255, 255, 255, 1);
+    --secondary-text : rgba(255, 255, 255, 1);
+    --info-text : rgba(255, 255, 255, 1);
+    --success-text : rgba(255, 255, 255, 1);
+    --warning-text : rgba(255, 255, 255, 1);
+    --help-text : rgba(255, 255, 255, 1);
+    --danger-text : rgba(255, 255, 255, 1);
+    --html-font-size: 14px;
 }

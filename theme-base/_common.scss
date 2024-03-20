@@ -2,6 +2,10 @@
 	box-sizing: border-box;
 }
 
+html {
+    font-size: var(--html-font-size);
+}
+
 .p-component {
     font-family: var(--font-family);
     font-feature-settings: var(--font-feature-settings, normal);

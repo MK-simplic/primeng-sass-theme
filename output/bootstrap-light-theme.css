@@ -57,6 +57,7 @@
   --warning-text: rgba(255, 255, 255, 1);
   --help-text: rgba(255, 255, 255, 1);
   --danger-text: rgba(255, 255, 255, 1);
+  --html-font-size: 14px;
 }
 
 :root {
@@ -423,6 +424,10 @@
 
 * {
   box-sizing: border-box;
+}
+
+html {
+  font-size: var(--html-font-size);
 }
 
 .p-component {
@@ -2643,9 +2648,9 @@ p-treeselect.p-treeselect-clearable .p-treeselect-clear-icon {
 .p-button.p-button-danger:not(:disabled):hover,
 .p-buttonset.p-button-danger > .p-button:not(:disabled):hover,
 .p-splitbutton.p-button-danger > .p-button:not(:disabled):hover {
-  background: 1px solid var(--danger-400);
+  background: var(--danger-400);
   color: var(--danger-text);
-  border-color: 1px solid var(--danger-600);
+  border-color: var(--danger-600);
 }
 .p-button.p-button-danger:not(:disabled):focus,
 .p-buttonset.p-button-danger > .p-button:not(:disabled):focus,
@@ -2655,9 +2660,9 @@ p-treeselect.p-treeselect-clearable .p-treeselect-clear-icon {
 .p-button.p-button-danger:not(:disabled):active,
 .p-buttonset.p-button-danger > .p-button:not(:disabled):active,
 .p-splitbutton.p-button-danger > .p-button:not(:disabled):active {
-  background: 1px solid var(--danger-600);
+  background: var(--danger-600);
   color: var(--danger-text);
-  border-color: 1px solid var(--danger-600);
+  border-color: var(--danger-600);
 }
 .p-button.p-button-danger.p-button-outlined,
 .p-buttonset.p-button-danger > .p-button.p-button-outlined,
